@@ -17,7 +17,7 @@ let inicialNombre = nombre.charAt(0)
 //8. Otra variable que contenga la última letra del Apellido
 let inicialApellido = apellido.charAt(estudiante.lenght - 1)
 //9. Una cadena de texto que elimine los espacios de la variable "estudiante"
-let estudianteNoSpace = nombre.concat(apellido)
+let estudianteNoSpace = estudiante.replace(" ", "")
 //10.Una variable booleana que diga si el Nombre está contenido
 let includesNombre = estudiante.includes(nombre)
 
