@@ -1,4 +1,4 @@
-//Factorial con buble for
+//Factorial con bucle for
 
 
 let total = 1; 
